@@ -14,4 +14,4 @@ EXPOSE 8081
 ENV ALL_PROXY=socks5://localhost:1055/
 ENV HTTP_PROXY=http://localhost:1055/
 ENV http_proxy=http://localhost:1055/
-ENTRYPOINT []
+ENTRYPOINT ["ls"]
